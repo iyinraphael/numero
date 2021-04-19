@@ -35,6 +35,6 @@ class ConverterTests: XCTestCase {
 
     func testConversionForThree() {
       let result = sut.convert(3)
-      XCTAssertEqual(result, "II", "Conversion for 3 is incorrect please")
+      XCTAssertEqual(result, "III", "Conversion for 3 is incorrect please")
     }
 }
