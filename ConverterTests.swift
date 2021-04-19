@@ -28,5 +28,9 @@ class ConverterTests: XCTestCase {
         XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
       }
 
+    func testConversionForTwo() {
+      let result = sut.convert(2)
+      XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
+    }
 
 }
